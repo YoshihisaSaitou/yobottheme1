@@ -1,0 +1,40 @@
+.pagetop-custom-block-pattern-1{
+    margin-left: auto !important;
+    margin-right: 1rem !important;
+    padding: 0;
+    width: fit-content;
+    position: sticky;
+    bottom: 1rem;
+    right: 0;
+}
+.pagetop-custom-block-pattern-1 > p{
+    margin: 0;
+    padding: 0;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: var(--wp--preset--color--main-3);
+    font-size: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.pagetop-custom-block-pattern-1 > p:hover{
+    background-color: var(--wp--preset--color--main-2);
+}
+.pagetop-custom-block-pattern-1 > p::before{
+    content: '';
+    margin: 0;
+    padding: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    border: solid 0.125rem #fff;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+}

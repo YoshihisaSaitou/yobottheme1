@@ -1,0 +1,40 @@
+/*
+フロント用のCSSでstyle.cssのCSSをここに記述する
+*/
+@charset "UTF-8";
+/* パンくず（breadcrumb）はAll in One SEOなどのプラグインを使用しない場合に使用する */
+.breadcrumb{
+    margin: 1.5rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.75rem;
+    gap: 0.5rem;
+}
+.breadcrumb .connector{
+    margin: -0.3125rem 0 0;
+    font-size: 1.3rem;
+    line-height: 0;
+}
+
+@media screen and (max-width: 599px) {
+    .wp-block-navigation__responsive-container-open svg{
+        width: 32px;
+        height: 32px;
+    }
+    .wp-block-navigation__responsive-container-close{
+        top: 16px;
+        right: 16px;
+    }
+    .wp-block-navigation__responsive-container-content{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    /*.wp-block-navigation__container{
+    
+    }
+    .wp-block-navigation-item{
+        
+    }*/
+}

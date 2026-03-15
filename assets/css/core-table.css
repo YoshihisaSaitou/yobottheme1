@@ -1,0 +1,22 @@
+.wp-block-table{
+    overflow-x: visible;
+}
+.wp-block-table table thead{
+    border: solid 0.0625rem #ccc;
+    background-color: #e8e8e8;
+}
+.wp-block-table table thead th{
+    border: solid 0.0625rem #ccc;
+}
+.wp-block-table table tbody{
+    border: solid 0.0625rem #ccc;
+}
+.wp-block-table table tbody td{
+    border: solid 0.0625rem #ccc;
+}
+.wp-block-table table tfoot{
+    border: solid 0.0625rem #ccc;
+}
+.wp-block-table table tfoot td{
+    border: solid 0.0625rem #ccc;
+}
