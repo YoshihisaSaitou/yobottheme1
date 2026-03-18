@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 
 /**
  * Title: ページトップに戻るボタン
- * Slug: solidseedblocktheme/pagetop-custom-block-pattern-1
+ * Slug: yobot01theme/pagetop-custom-block-pattern-1
  * Description: ページトップに戻るボタン
  */
 ?>

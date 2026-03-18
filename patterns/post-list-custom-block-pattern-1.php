@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 
 /**
  * Title: タイトルに詳細リンクで投稿内容の表示無し
- * Slug: solidseedblocktheme/post-list-custom-block-pattern-1
+ * Slug: yobot01theme/post-list-custom-block-pattern-1
  * Categories: query
  * Description: タイトルに詳細リンクで投稿内容の表示無し
  */

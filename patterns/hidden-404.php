@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 
 /**
  * Title: 404
- * Slug: solidseedblocktheme/hidden-404
+ * Slug: yobot01theme/hidden-404
  * Inserter: no
  */
 ?>

@@ -53,7 +53,7 @@ add_action('wp_enqueue_scripts', function () {
 });
 
 //特定のブロックに対してスタイルシートを適用
-function solidseedblockthemeBlockStyles() {
+function yobot01themeBlockStyles() {
     wp_enqueue_block_style(
         'core/table',
         [
@@ -65,9 +65,9 @@ function solidseedblockthemeBlockStyles() {
     );
     
     wp_enqueue_block_style(
-        'solidseedblocktheme/post-list-custom-block-pattern-1',
+        'yobot01theme/post-list-custom-block-pattern-1',
         [
-            'handle' => 'solidseedblocktheme-post-list-custom-block-pattern-1',
+            'handle' => 'yobot01theme-post-list-custom-block-pattern-1',
             'src'    => get_parent_theme_file_uri( 'assets/css/post-list-custom-block-pattern-1.css' ),
             'path'   => get_parent_theme_file_path( 'assets/css/post-list-custom-block-pattern-1.css' ),
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
@@ -75,9 +75,9 @@ function solidseedblockthemeBlockStyles() {
     );
     
     wp_enqueue_block_style(
-        'solidseedblocktheme/post-list-custom-block-pattern-2',
+        'yobot01theme/post-list-custom-block-pattern-2',
         [
-            'handle' => 'solidseedblocktheme-post-list-custom-block-pattern-2',
+            'handle' => 'yobot01theme-post-list-custom-block-pattern-2',
             'src'    => get_parent_theme_file_uri( 'assets/css/post-list-custom-block-pattern-2.css' ),
             'path'   => get_parent_theme_file_path( 'assets/css/post-list-custom-block-pattern-2.css' ),
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
@@ -85,16 +85,16 @@ function solidseedblockthemeBlockStyles() {
     );
     
     wp_enqueue_block_style(
-        'solidseedblocktheme/pagetop-custom-block-pattern-1',
+        'yobot01theme/pagetop-custom-block-pattern-1',
         [
-            'handle' => 'solidseedblocktheme-pagetop-custom-block-pattern-1',
+            'handle' => 'yobot01theme-pagetop-custom-block-pattern-1',
             'src'    => get_parent_theme_file_uri( 'assets/css/pagetop-custom-block-pattern-1.css' ),
             'path'   => get_parent_theme_file_path( 'assets/css/pagetop-custom-block-pattern-1.css' ),
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
         ]
     );
 }
-add_action('init', 'solidseedblockthemeBlockStyles');
+add_action('init', 'yobot01themeBlockStyles');
 
 /**
  * wp_headカスタム

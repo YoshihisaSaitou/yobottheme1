@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 
 /**
  * Title: デフォルトフッター
- * Slug: solidseedblocktheme/footer
+ * Slug: yobot01theme/footer
  * Categories: footer
  * Description: デフォルトフッター
  */
